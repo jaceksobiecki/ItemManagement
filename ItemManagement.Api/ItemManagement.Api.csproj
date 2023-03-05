@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.1</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItemManagement.Application\ItemManagement.Application.csproj" />
+    <ProjectReference Include="..\ItemManagement.Infrastructure\ItemManagement.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
